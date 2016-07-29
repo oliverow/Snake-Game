@@ -1,2 +1,3 @@
 # Snake-Game
-a web-based snake game
+This is a web-based snake game written in JavaScript and HTML. 
+I programmed the main game function and GUI part. 
