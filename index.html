@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+      #wrapper{
+        width: 800px;
+        margin: 0 0;
+      }
+  </style>
+  </head>
+
+  <body>
+    <div id="wrapper">
+
+      <canvas id="pane" width=800 height=800></canvas>
+      <button onclick="play()">Play</button>Lives:<span id="lives">0</span>&nbsp;&nbsp;&nbsp;Score:<span id="score">0</span>
+
+    </div>
+    <div id="rules">
+      <h1>Instructions</h1>
+      <p>red = food (your length+1)<br>
+        green = life (your lives+1)<br>
+        black = barriers (your lives-1)<br>
+        pink = posion (your length/2)<br>
+        Try To Grow As Long As Possible<br>
+        And DONT EAT YOURSELF(you will be cut from where you bite)</p>
+    </div>
+    <div id="highscores">
+      <h1>High Scores</h1>
+      
+    </div>
+
+</body>
+<script src="js/main.js"></script>
+
+</html>
+
